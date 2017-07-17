@@ -1,0 +1,18 @@
+// {
+//     "compilerOptions": {
+//         "module": "commonjs",
+//         "target": "es5",
+//         "noImplicitAny": false,
+//         "sourceMap": false
+//     }
+// }
+
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",        //原本es5,是因為前端不支援6,但後端不會有問題，所以我們可以改成6
+        "noImplicitAny": false, //設定debug的功能開啟
+        "sourceMap": true,
+        "outDir": "dist"        //將我們改變的東西設定儲存到另外一個資料夾，避免和原本的產生混淆
+    }
+}
